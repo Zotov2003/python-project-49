@@ -17,7 +17,7 @@ def main():
                 print("Correct!")
                 counter += 1
             else:
-                print("'yes' is wrong answer ;(. Correct answer was 'no'.")
+                print("'no' is wrong answer ;(. Correct answer was 'yes'.")
                 print(f"Let's try again, {name}!")
                 break  
         if num % 2 != 0:
