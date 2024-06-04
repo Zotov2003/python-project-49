@@ -12,8 +12,8 @@ def main():
     for i in range (1, 4):
         
         arithmetic = ["+", "-", "*"]
-        x1 = random.randrange(1, 100)
-        x2 = random.randrange(1, 100)
+        x1 = random.randrange(1, 10)
+        x2 = random.randrange(1, 10)
         action = random.choice(arithmetic)
         print(f"Question: {x1} {action} {x2}")
         input1 = input("Your answer: ")
