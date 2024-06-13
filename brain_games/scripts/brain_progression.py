@@ -24,7 +24,7 @@ def main():
             print("Correct!")
             counter += 1
         else:
-            print(f"'{input1}' is wrong answer ;(. Correct answer was '{num_res}'.")
+            print(f"'{input1}' is wrong answer ;(. Correct answer was '{num_res}'.\nLet's try again, {name}!")
             break
         if counter == 3:
             print(f"Congratulations, {name}!")
