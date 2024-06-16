@@ -7,6 +7,8 @@ readme = "README.md"
 packages = [
   { include = "brain_games" },
 ]
+repository = "https://github.com/Zotov2003/python-project-49"
+
 [tool.poetry.dependencies]
 python = "^3.10"
 prompt = "^0.4.1"
