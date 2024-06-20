@@ -10,5 +10,6 @@ def brain_progression():
     progression = [start + step * i for i in range(10)]
     res = progression[index]
     progression[index] = ".."
+    progression = ' '.join(str(x) for x in progression)
     operation = (f"Question: {progression}")
     return operation, res

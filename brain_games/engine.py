@@ -10,7 +10,7 @@ def run_game(brain, condition):
         operation, res = brain()
         print(operation)
         input1 = input("Your answer: ")
-        if input1 == res:
+        if input1 == str(res):
             counter += 1
             print("Correct!")
         else:
