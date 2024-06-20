@@ -14,7 +14,7 @@ def prime(num):
     return res
 
 
-def main():
+def brain_prime():
     num = random.randrange(1, 500)
     operation = (f"Question: {num}")
     
