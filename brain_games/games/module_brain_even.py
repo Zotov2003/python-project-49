@@ -15,4 +15,3 @@ def brain_even():
     input1 = input("Your answer: ")
     res = answer(num)
     return operation, input1, res
-

@@ -7,5 +7,6 @@ def main():
     condition = "Find the greatest common divisor of given numbers."
     run_game(brain_gcd, condition)
 
+
 if __name__ == '__main__':
     main()

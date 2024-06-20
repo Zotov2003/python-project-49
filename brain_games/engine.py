@@ -1,4 +1,4 @@
-from brain_games.games.greetings import welcome_user
+from brain_games.greetings import welcome_user
 
 
 def run_game(brain, condition):
@@ -8,6 +8,7 @@ def run_game(brain, condition):
     print(condition)
 
     while start < 3:
+        operation, input1, res = brain()
         print(operation)
         if input1 == res:
             counter += 1

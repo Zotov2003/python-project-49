@@ -7,5 +7,6 @@ def main():
     condition = "What is the result of the expression?"
     run_game(brain_calc, condition)
 
+
 if __name__ == '__main__':
     main()

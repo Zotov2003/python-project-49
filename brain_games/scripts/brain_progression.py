@@ -7,5 +7,6 @@ def main():
     condition = "What number is missing in the progression?"
     run_game(brain_progression, condition)
 
+
 if __name__ == '__main__':
     main()

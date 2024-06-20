@@ -1,5 +1,5 @@
-#!/usr/bin/env python3
 import random
+
 
 def nod(x1, x2):
     res = 0
@@ -15,13 +15,9 @@ def nod(x1, x2):
 
 
 def brain_gcd():
-        x1 = random.randrange(1, 20)
-        x2 = random.randrange(1, 20)
-        operation = (f"Question: {x1} {x2}")
-        input1 = input("Your answer: ")
-        res = nod(x1, x2)
-        return operation, input1, res
-
-
-if __name__ == '__main__':
-    main()
+    x1 = random.randrange(1, 20)
+    x2 = random.randrange(1, 20)
+    operation = (f"Question: {x1} {x2}")
+    input1 = input("Your answer: ")
+    res = nod(x1, x2)
+    return operation, input1, res

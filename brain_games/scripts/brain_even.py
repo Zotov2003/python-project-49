@@ -7,5 +7,6 @@ def main():
     condition = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
     run_game(brain_even, condition)
 
+
 if __name__ == '__main__':
     main()
