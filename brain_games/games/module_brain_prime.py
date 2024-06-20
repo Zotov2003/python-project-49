@@ -17,6 +17,5 @@ def prime(num):
 def brain_prime():
     num = random.randrange(1, 500)
     operation = (f"Question: {num}")
-    
     res = prime(num)
     return operation, res
