@@ -2,14 +2,14 @@ from brain_games.greetings import welcome_user
 
 
 def run_game(brain, condition):
-    start = 0
     counter = 0
     name = welcome_user()
     print(condition)
 
-    while start < 3:
-        operation, input1, res = brain()
+    while counter < 3:
+        operation, res = brain()
         print(operation)
+        input1 = input("Your answer: ")
         if input1 == res:
             counter += 1
             print("Correct!")

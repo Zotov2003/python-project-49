@@ -11,5 +11,4 @@ def brain_progression():
     res = progression[index]
     progression[index] = ".."
     operation = (f"Question: {progression}")
-    input1 = input("Your answer: ")
-    return operation, input1, res
+    return operation, res

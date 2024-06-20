@@ -17,6 +17,6 @@ def prime(num):
 def main():
     num = random.randrange(1, 500)
     operation = (f"Question: {num}")
-    input1 = input("Your answer: ")
+    
     res = prime(num)
-    return operation, input1, res
+    return operation, res

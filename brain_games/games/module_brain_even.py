@@ -12,6 +12,5 @@ def answer(num):
 def brain_even():
     num = random.randrange(1, 100)
     operation = (f"Question: {num}")
-    input1 = input("Your answer: ")
     res = answer(num)
-    return operation, input1, res
+    return operation, res

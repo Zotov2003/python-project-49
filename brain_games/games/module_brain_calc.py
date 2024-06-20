@@ -17,6 +17,5 @@ def brain_calc():
     x2 = random.randrange(1, 10)
     action = random.choice(arithmetic)
     operation = (f"Question: {x1} {action} {x2}")
-    input1 = input("Your answer: ")
     res = action1(x1, action, x2)
-    return operation, input1, res
+    return operation, res
