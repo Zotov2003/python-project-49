@@ -1,8 +1,9 @@
 #!/usr/bin/env python3
 import random
 
+condition = "What number is missing in the progression?"
 
-def brain_progression():
+def game():
     start = random.randrange(1, 10)
     step = random.randrange(1, 5)
     index = random.randrange(1, 10)

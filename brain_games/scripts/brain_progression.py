@@ -1,11 +1,10 @@
 #!/usr/bin/env python3
 from brain_games.engine import run_game
-from brain_games.games.progression import brain_progression
+from brain_games.games import progression
 
 
 def main():
-    condition = "What number is missing in the progression?"
-    run_game(brain_progression, condition)
+    run_game(progression.game, progression.condition)
 
 
 if __name__ == '__main__':

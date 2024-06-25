@@ -1,13 +1,12 @@
 from brain_games.cli import welcome_user
-import games
 
-def run_game(brain, condition):
+def run_game(game_module, condition):
     counter = 0
     name = welcome_user()
     print(condition)
 
     while counter < 3:
-        operation, res = brain()
+        operation, res = game_module()
         print(f"Question: {operation}")
         input1 = input("Your answer: ")
         if input1 == str(res):

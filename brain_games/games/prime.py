@@ -13,8 +13,10 @@ def prime(num):
             res = "no"
     return res
 
+condition = "Answer \"yes\" if given number is prime. "
+condition += "Otherwise answer \"no\"."
 
-def brain_prime():
+def game():
     num = random.randrange(1, 500)
     operation = num
     res = prime(num)
