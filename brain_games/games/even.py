@@ -8,7 +8,9 @@ def answer(num):
         answer = "no"
     return answer
 
+
 condition = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
+
 
 def game():
     num = random.randrange(1, 100)

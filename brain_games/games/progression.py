@@ -3,6 +3,7 @@ import random
 
 condition = "What number is missing in the progression?"
 
+
 def game():
     start = random.randrange(1, 10)
     step = random.randrange(1, 5)

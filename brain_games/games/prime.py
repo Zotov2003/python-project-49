@@ -13,8 +13,10 @@ def prime(num):
             res = "no"
     return res
 
+
 condition = "Answer \"yes\" if given number is prime. "
 condition += "Otherwise answer \"no\"."
+
 
 def game():
     num = random.randrange(1, 500)

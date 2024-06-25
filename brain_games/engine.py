@@ -1,5 +1,6 @@
 from brain_games.cli import welcome_user
 
+
 def run_game(game_module, condition):
     counter = 0
     name = welcome_user()

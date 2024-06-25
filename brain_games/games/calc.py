@@ -10,7 +10,9 @@ def action1(x1, action, x2):
         result = x1 * x2
     return str(result)
 
+
 condition = "What is the result of the expression?"
+
 
 def game():
     arithmetic = ["+", "-", "*"]

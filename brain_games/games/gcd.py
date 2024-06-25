@@ -13,7 +13,9 @@ def nod(x1, x2):
                 res = j
     return str(res)
 
+
 condition = "Find the greatest common divisor of given numbers."
+
 
 def game():
     x1 = random.randrange(1, 20)
