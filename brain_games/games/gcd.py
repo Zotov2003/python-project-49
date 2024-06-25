@@ -18,6 +18,6 @@ condition = "Find the greatest common divisor of given numbers."
 def game():
     x1 = random.randrange(1, 20)
     x2 = random.randrange(1, 20)
-    operation = x1, x2
+    operation = (f"{x1} {x2}")
     res = nod(x1, x2)
     return operation, res
