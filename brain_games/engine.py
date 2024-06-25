@@ -1,5 +1,5 @@
-from brain_games.greetings import welcome_user
-
+from brain_games.cli import welcome_user
+import games
 
 def run_game(brain, condition):
     counter = 0
@@ -8,7 +8,7 @@ def run_game(brain, condition):
 
     while counter < 3:
         operation, res = brain()
-        print(operation)
+        print(f"Question: {operation}")
         input1 = input("Your answer: ")
         if input1 == str(res):
             counter += 1

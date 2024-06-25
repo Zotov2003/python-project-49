@@ -17,6 +17,6 @@ def nod(x1, x2):
 def brain_gcd():
     x1 = random.randrange(1, 20)
     x2 = random.randrange(1, 20)
-    operation = (f"Question: {x1} {x2}")
+    operation = x1, x2
     res = nod(x1, x2)
     return operation, res
