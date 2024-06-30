@@ -3,7 +3,9 @@ import random
 
 condition = "What number is missing in the progression?"
 
-
+#Фунция дает последовательность из 10 чисел с определенным шагом
+#Одно из чисел заменяется на ".."
+#Возвращается последовательность чисел и результат
 def game():
     start = random.randrange(1, 10)
     step = random.randrange(1, 5)

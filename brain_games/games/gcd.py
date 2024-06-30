@@ -1,5 +1,7 @@
 import random
 
+CONDITION = "Find the greatest common divisor of given numbers."
+
 
 def nod(x1, x2):
     res = 0
@@ -13,10 +15,9 @@ def nod(x1, x2):
                 res = j
     return str(res)
 
-
-condition = "Find the greatest common divisor of given numbers."
-
-
+#Функция дает два числа для задания
+#Заданин решается в функции nod
+#Возвращает числа для задания и результат вычисления
 def game():
     x1 = random.randrange(1, 20)
     x2 = random.randrange(1, 20)

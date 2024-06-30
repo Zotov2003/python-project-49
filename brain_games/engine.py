@@ -4,19 +4,19 @@ from brain_games.cli import welcome_user
 def run_game(game_module):
     counter = 0
     name = welcome_user()
-    condition = game_module.condition
-    print(condition)
+    CONDITION = game_module.CONDITION
+    print(CONDITION)
 
     while counter < 3:
-        operation, res = game_module.game()
-        print(f"Question: {operation}")
-        input1 = input("Your answer: ")
-        if input1 == str(res):
+        task, result_task = game_module.game()
+        print(f"Question: {task}")
+        user_answer = input("Your answer: ")
+        if user_answer == str(result_task):
             counter += 1
             print("Correct!")
         else:
-            print(f"{input1} is  wrong answer ;(. ", end="")
-            print(f"Correct answer was {res}")
+            print(f"{user_answer} is  wrong answer ;(. ", end="")
+            print(f"Correct answer was {result_task}")
             print(f"Let's try again, {name}!")
             break
     if counter == 3:

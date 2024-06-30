@@ -1,5 +1,7 @@
 import random
 
+CONDITION = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
+
 
 def answer(num):
     if num % 2 == 0:
@@ -8,10 +10,9 @@ def answer(num):
         answer = "no"
     return answer
 
-
-condition = "Answer \"yes\" if the number is even, otherwise answer \"no\"."
-
-
+#функция выдает число для решения задания
+#правильный ответ находит функция answewr
+#возвращает само число для задания и его результат
 def game():
     num = random.randrange(1, 100)
     operation = num
