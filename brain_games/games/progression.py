@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import random
 
-condition = "What number is missing in the progression?"
+CONDITION = "What number is missing in the progression?"
 
 #Фунция дает последовательность из 10 чисел с определенным шагом
 #Одно из чисел заменяется на ".."
