@@ -24,4 +24,4 @@ def get_question_and_answer():
     num = random.randrange(1, 500)
     question = num
     answer = calculating_prime(num)
-    return  question, answer
+    return question, answer
