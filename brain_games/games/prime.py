@@ -17,7 +17,7 @@ def calculating_prime(num):
     return res
 
 
-def task_regeneration_prime():
+def get_question_and_answer():
     """The function gives a number for the task
     The task is solved through the calculating_prime function
     Returns the number for the task and its result"""

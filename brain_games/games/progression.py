@@ -3,7 +3,7 @@ import random
 CONDITION = "What number is missing in the progression?"
 
 
-def task_regeneration_progression():
+def get_question_and_answer():
     """The function gives a sequence of 10 numbers with a certain step
     One of the numbers is replaced with ".."
     A sequence of numbers is returned and the result"""

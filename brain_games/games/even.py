@@ -11,7 +11,7 @@ def calculating_even_number(num):
     return answer
 
 
-def task_regeneration_even():
+def get_question_and_answer():
     """the function outputs a number to solve the task
     the calculating_even_number function finds the correct answer
     returns the number itself for the task and its result"""

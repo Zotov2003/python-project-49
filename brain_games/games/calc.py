@@ -13,7 +13,7 @@ def calculating_the_result(x1, symbol, x2):
     return result
 
 
-def task_regeneration_calc():
+def get_question_and_answer():
     """The function gives two numbers and a sign for the task
     The task is solved through the calculating_the_result function
     Returns the task itself and its result"""

@@ -16,7 +16,7 @@ def calculating_nod(x1, x2):
     return str(res)
 
 
-def task_regeneration_gcd():
+def get_question_and_answer():
     """The function creates two numbers for the task
     The task is solved in the calculating_nod function
     Returns the numbers for the task and the result of the calculation"""

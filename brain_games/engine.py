@@ -7,7 +7,7 @@ def run_game(game_module):
     print(game_module.CONDITION)
 
     while counter < 3:
-        task, result_task = game_module.game()
+        task, result_task = game_module.get_question_and_answer()
         print(f"Question: {task}")
         user_answer = input("Your answer: ")
         if user_answer == str(result_task):
