@@ -4,8 +4,7 @@ from brain_games.cli import welcome_user
 def run_game(game_module):
     counter = 0
     name = welcome_user()
-    CONDITION = game_module.CONDITION
-    print(CONDITION)
+    print(game_module.CONDITION)
 
     while counter < 3:
         task, result_task = game_module.game()

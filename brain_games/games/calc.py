@@ -3,25 +3,24 @@ import random
 CONDITION = "What is the result of the expression?"
 
 
-def action(x1, symbol, x2):
+def calculating_the_result(x1, symbol, x2):
     if symbol == "+":
         result = x1 + x2
     elif symbol == "-":
         result = x1 - x2
     elif symbol == "*":
         result = x1 * x2
-    return str(result)
-
-# Функция дает два числа и знак для задания
-# Задание решается через функцию action
-# возвращает само задание и его результат
+    return result
 
 
-def game():
-    arithmetic = ["+", "-", "*"]
+def task_regeneration_calc():
+    """The function gives two numbers and a sign for the task
+    The task is solved through the calculating_the_result function
+    Returns the task itself and its result"""
+    signs = ["+", "-", "*"]
     x1 = random.randrange(1, 10)
     x2 = random.randrange(1, 10)
-    symbol = random.choice(arithmetic)
-    operation = (f"{x1} {symbol} {x2}")
-    res = action(x1, symbol, x2)
-    return operation, res
+    symbol = random.choice(signs)
+    question = f"{x1} {symbol} {x2}"
+    answer = calculating_the_result(x1, symbol, x2)
+    return question, answer

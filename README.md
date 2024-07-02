@@ -15,23 +15,28 @@
 
 1. Калькулятор (brain-calc) 
 В игре вам будет предложено два числа и действие с ними. Для успешного прохождения требуется 3 раза подряд ответить правильно, иначе игра сразу закончится.
-Демонстрация: https://asciinema.org/a/BR7ZkNpFrmzK2IqgrIJH0ZzCo
+Демонстрация: 
+[![asciicast](https://asciinema.org/a/BR7ZkNpFrmzK2IqgrIJH0ZzCo.svg)](https://asciinema.org/a/BR7ZkNpFrmzK2IqgrIJH0ZzCo)
 
 2. Проверка на четность (brain-even)
 Вам будет предложено число, нужно будет ответить является число четным или нет. Для успешного прохождения требуется 3 раза подряд ответить правильно, иначе игра сразу закончится.
-Демонстрация: https://asciinema.org/a/XOUjacgCQ1dIhNMptr80ITGsT
+Демонстрация:
+[![asciicast](https://asciinema.org/a/XOUjacgCQ1dIhNMptr80ITGsT.svg)](https://asciinema.org/a/XOUjacgCQ1dIhNMptr80ITGsT)
 
 3. НОД (brain-gcd)
 Вам будет предложено два числа, требуется найти наибольший общий делитель для этих двух чисел. Для успешного прохождения требуется 3 раза подряд ответить правильно, иначе игра сразу закончится.
-Демонстрация: https://asciinema.org/a/UVPraJBT9N0JmCsCt4pVih9m3
+Демонстрация: 
+[![asciicast](https://asciinema.org/a/UVPraJBT9N0JmCsCt4pVih9m3.svg)](https://asciinema.org/a/UVPraJBT9N0JmCsCt4pVih9m3)
 
 4. Простое ли число (brain-prime)
 Вам будет предложено число, требуется ответить простое это число или нет. Для успешного прохождения требуется 3 раза подряд ответить правильно, иначе игра сразу закончится.
-Демонстрация: https://asciinema.org/a/ocp35sCCTTKDchqkhoJWEBnQA
+Демонстрация: 
+[![asciicast](https://asciinema.org/a/ocp35sCCTTKDchqkhoJWEBnQA.svg)](https://asciinema.org/a/ocp35sCCTTKDchqkhoJWEBnQA)
 
 5. Арифметическая прогрессия (brain-progression)
 Вам будут предложены 10 чисел, но одно из них заменено двумя точками, требуется вписать пропущенное число. Для успешного прохождения требуется 3 раза подряд ответить правильно, иначе игра сразу закончится.
-Демонстрация: https://asciinema.org/a/3qSV5fFPMGkJRUJgRjwfLvJXP
+Демонстрация: 
+[![asciicast](https://asciinema.org/a/3qSV5fFPMGkJRUJgRjwfLvJXP.svg)](https://asciinema.org/a/3qSV5fFPMGkJRUJgRjwfLvJXP)
 
 
 ### Links

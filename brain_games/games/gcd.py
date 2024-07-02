@@ -3,7 +3,7 @@ import random
 CONDITION = "Find the greatest common divisor of given numbers."
 
 
-def nod(x1, x2):
+def calculating_nod(x1, x2):
     res = 0
     if x1 < x2:
         for j in range(1, x1 + 1):
@@ -15,14 +15,13 @@ def nod(x1, x2):
                 res = j
     return str(res)
 
-# Функция дает два числа для задания
-# Заданин решается в функции nod
-# Возвращает числа для задания и результат вычисления
 
-
-def game():
+def task_regeneration_gcd():
+    """The function creates two numbers for the task
+    The task is solved in the calculating_nod function
+    Returns the numbers for the task and the result of the calculation"""
     x1 = random.randrange(1, 20)
     x2 = random.randrange(1, 20)
-    operation = (f"{x1} {x2}")
-    res = nod(x1, x2)
-    return operation, res
+    question = (f"{x1} {x2}")
+    answer = calculating_nod(x1, x2)
+    return question, answer

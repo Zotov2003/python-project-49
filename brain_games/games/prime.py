@@ -4,7 +4,7 @@ CONDITION = "Answer \"yes\" if given number is prime. "
 CONDITION += "Otherwise answer \"no\"."
 
 
-def prime(num):
+def calculating_prime(num):
     counter = 0
     res = ""
     for j in range(1, 501):
@@ -16,13 +16,12 @@ def prime(num):
             res = "no"
     return res
 
-# Функция дает число для задания
-# Задание решается через функцию prime
-# Возвращает число для задания и его результат
 
-
-def game():
+def task_regeneration_prime():
+    """The function gives a number for the task
+    The task is solved through the calculating_prime function
+    Returns the number for the task and its result"""
     num = random.randrange(1, 500)
-    operation = num
-    res = prime(num)
-    return operation, res
+    question = num
+    answer = calculating_prime(num)
+    return  question, answer
