@@ -4,6 +4,7 @@ from brain_games.games import prime
 
 
 def main():
+    """The function starts the game engine using the module prime"""
     run_game(prime)
 
 

@@ -3,7 +3,9 @@ import random
 CONDITION = "What is the result of the expression?"
 
 
-def calculating_the_result(x1, symbol, x2):
+def calculate(x1, symbol, x2):
+    """The calculate function calculates the result of the expression
+    Next, the result is passed to the get_question_and_answer function"""
     if symbol == "+":
         result = x1 + x2
     elif symbol == "-":
@@ -22,5 +24,5 @@ def get_question_and_answer():
     x2 = random.randrange(1, 10)
     symbol = random.choice(signs)
     question = f"{x1} {symbol} {x2}"
-    answer = calculating_the_result(x1, symbol, x2)
+    answer = calculate(x1, symbol, x2)
     return question, answer

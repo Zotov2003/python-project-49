@@ -3,6 +3,7 @@ from brain_games.cli import welcome_user
 
 
 def main():
+    """The function launches the welcome_user function to greet"""
     welcome_user()
 
 

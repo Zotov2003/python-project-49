@@ -4,6 +4,7 @@ from brain_games.games import progression
 
 
 def main():
+    """The function starts the game engine using the module progression"""
     run_game(progression)
 
 

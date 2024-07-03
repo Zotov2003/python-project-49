@@ -4,6 +4,8 @@ CONDITION = "Find the greatest common divisor of given numbers."
 
 
 def calculating_nod(x1, x2):
+    """The calculating_nod function finds the largest common divisor
+    Next, it returns the result to the get_question_and_answer function"""
     res = 0
     if x1 < x2:
         for j in range(1, x1 + 1):

@@ -5,6 +5,7 @@ from brain_games.games import calc
 
 
 def main():
+    """The function starts the game engine using the module calc"""
     run_game(calc)
 
 

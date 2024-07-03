@@ -4,6 +4,7 @@ from brain_games.games import gcd
 
 
 def main():
+    """The function starts the game engine using the module gcd"""
     run_game(gcd)
 
 
