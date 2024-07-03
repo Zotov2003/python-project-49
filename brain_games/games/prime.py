@@ -5,7 +5,8 @@ CONDITION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 def is_prime(num):
     """The is_prime function determines whether a number is prime
-    Next, the function returns the result to the get_question_and_answer function"""
+    Next, the function returns the result 
+    to the get_question_and_answer function"""
     counter = 0
     res = ""
     for j in range(1, 501):
