@@ -2,7 +2,7 @@ from brain_games.cli import welcome_user
 
 
 def run_game(game_module):
-    """The function starts the game process itself 
+    """The function starts the game process itself
     by accessing the required modules"""
     counter = 0
     name = welcome_user()
